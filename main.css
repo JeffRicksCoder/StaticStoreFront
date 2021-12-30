@@ -1,0 +1,222 @@
+body {
+    background-color: lightskyblue ;
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    height: 100vh;
+    }
+
+header {
+    background-color: whitesmoke;
+    text-align: right;
+    padding: .75rem 0;
+    border-bottom: solid 1 px dimgrey;
+    box-shadow: 
+        0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+    header a {
+        color: white;
+        background-color: #13a0ff;
+        border: solid 1 px gray;
+        border-radius: 3px;
+        padding: .25rem .5rem;
+        margin-right: .5rem;
+        line-height: 1.5rem;
+        text-decoration: none;
+    }
+
+    header a:hover, .form-button:hover {
+        background-color: #1084d1;
+        cursor: pointer;
+    }   
+
+    .container {
+        margin: auto;
+        padding: 1.5rem;
+        background-color: white;
+        border: solid 1px gray;
+        border-radius: 5px;
+        box-shadow: 
+        0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .container > h1 {
+        margin: 0 0 .5rem;
+    }
+
+    form input, .form-button {
+        width: 100%;
+        min-width: 300px;
+        /* Out inputs and forms have different default sizes. We can fix this by changing the box-sizing */
+        box-sizing: border-box;
+        margin: .75rem 0;
+        padding: .25rem;
+        line-height: 1.5rem;
+        font-size:  1em;
+        border: solid 1px gray;
+        border-radius: 3px;
+    }
+
+    .form-button {
+        color: white;
+        background-color: #13a0ff;
+        text-align: center;
+    }
+
+footer {
+    margin-top: .75rem;
+    border-top: solid 1px lightgray;
+    padding-top: 1rem;
+    text-align: center;
+}
+footer img:hover {
+    cursor: pointer;
+
+
+
+
+
+//*    
+}body {
+    background color:yellow
+    }
+
+    .css-class {
+        background-color: lightgray;
+    }
+    /*rule set #3: All h1 tags within the cdd-class class will have orangered font 16 pixels high. */
+    .css-class p {
+        font-size: 16px;
+        color: orangered;
+    }
+
+    /*rule set #5: All the li items within the css-class class will have a blue font. */
+    .css-class li {
+        color: navy;
+    }
+
+
+
+#number-one, #number-two {
+    color: blue
+}
+#number-two{
+    font-size: 20px;
+}
+.first-class {
+    color: hotpink
+}
+p, h1{
+    color:red
+}
+.second-class {
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
+.title {
+    text-align: center;
+}
+
+.container {
+    border: 2px solid blue;
+
+    /* margin-top: 50px;
+    margin-right: 250px;
+    margin-bottom: 200px;
+    margin-left: 200px */
+    margin: 50px 250px 200px 200px;
+    padding: 20px 20px 20px 40px
+}
+p {
+    height: 40px;
+    background-color: green;
+    color: white;
+    border: 5px solid pink;
+}
+
+#margin-experiment-1,#margin-experiment-2 {
+    margin: 0;
+}
+.margin-experiment-3 {
+    margin: 5px 10px 20px 0;
+    padding: 10px;
+    background-color: rebeccapurple
+}
+.padded-container {
+    border: 2px solid red;
+    margin: 50 px;
+    padding: 20px 20px 30px 40px;
+}
+#padding-experiment-1 {
+    border: 2px solid yellow;
+    margin: 50px;
+    padding: 20px;
+}
+#padding-experiment-2 {
+    border: 5px solid blue;
+    background-color: fuchsia
+    color: white
+    margin 30 px;
+    padding 10px;
+}
+/* Sample comment line */
+body {
+    background-color: lightblue;
+}
+.wrapper {
+    margin: 5px;
+}
+h1 {
+   color: blue; 
+   text-align: center;
+}
+#title-p {
+    text-align: center;
+}
+h3 {
+    text-decorations: underline;
+}
+.border-style li {
+    margin: 5px;
+}
+.border-style li:nth-child(1) {
+    border-style: dotted;
+}
+.border-style li:nth-child(2) {
+    border-style: dashed;
+}
+.border-style li:nth-child(3) {
+    border-style: solid;
+}
+.border-style li:nth-child(4) {
+    border-style: dotted;
+}
+.border-style li:nth-child(5) {
+    border-style: START HERE dotted;
+}
+.border-style li:nth-child(6) {
+    border-style: dotted;
+}
+.border-style li:nth-child(7) {
+    border-style: dotted;
+}
+.border-style li:nth-child(8) {
+    border-style: dotted;
+}
+.border-style li:nth-child(9) {
+    border-style: dotted;
+}
+.border-style li:nth-child(10) {
+    border-style: dotted;
+}
