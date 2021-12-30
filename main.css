@@ -1,14 +1,17 @@
+/*COMMON ELEMENTS*/
+
 body {
-    background-color: rgb(22, 163, 57) ;
+    font-size: 65%;
+    background-color: rgb(163, 22, 81) ;
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif sans-serif;
     display: flex;
     height: 100vh;
     }
 
 header {
-    background-color: whitesmoke;
-    text-align: right;
+    background-color: rgb(245, 245, 245);
+    text-align: left;
     padding: .75rem .75rem;
     border-bottom: solid 1 px dimgrey;
     box-shadow: 
